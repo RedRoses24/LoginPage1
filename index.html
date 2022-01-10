@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<section id="section1">
+		<div class="container">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#harrypotter">
+			<img src="https://img.icons8.com/ios/2x/info--v3.gif" class="img-responsive">
+				<hr>
+				<p class="text-primary" class="text-capitalize"><strong>MORE INFO
+				</strong></p>
+			</div>
+		<div class="modal fade" id="harrypotter">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title" class="text-capitalize">Detecting the objects</h4>
+					</div>
+					<div class="modal-body">
+						<img src="https://img.icons8.com/ios/2x/info--v3.gif" class="img-responsive" class="img-responsive img_modal"> <p class="p_modal"> 𝐈𝐧𝐜𝐫𝐞𝐚𝐬𝐞 𝐲𝐨𝐮𝐫 𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐛𝐲 𝐭𝐚𝐤𝐢𝐧𝐠 𝐨𝐮𝐫 𝐌𝐚𝐭𝐡𝐬 𝐐𝐮𝐢𝐳. 𝐓𝐫𝐲 𝐚𝐧𝐝 𝐚𝐧𝐬𝐰𝐞𝐫 𝐭𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐨𝐫 𝐞𝐥𝐬𝐞 𝐲𝐨𝐮𝐫 𝐨𝐩𝐩𝐨𝐧𝐞𝐧𝐭 𝐰𝐢𝐥𝐥 𝐬𝐜𝐨𝐫𝐞 𝐩𝐨𝐢𝐧𝐭𝐬. 𝐋𝐨𝐠𝐢𝐧 𝐭𝐨 𝐩𝐥𝐚𝐲. 𝐆𝐨𝐨𝐝 𝐥𝐮𝐜𝐤! 
+							<br>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+			<center>
+	<h1>Maths Quiz</h1>
+	<h1>TEMPLATE 2</h1>
+	<a href="" target="_blank"></a>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+	<h3>Player 1 Login To Play</h3>
+	<label>Username: </label>
+	<input type="text" class="form-control" id="player1_name_input" placeholder="Enter Player 1">
+	<br>
+</div>
+<br>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+	<h3>Player 2 Login To Play</h3>
+	<label>Username: </label>
+	<input type="text" class="form-control" id="player2_name_input" placeholder="Enter Player 2">
+	<br>
+</div>
+<br>
+<button class="btn btn-success" style="width: 30%;" onclick="add_user()">Log in</button>
+</div>
+</center>
+</body>
+</html>

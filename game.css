@@ -1,0 +1,75 @@
+body
+{
+	background-image: url('https://media.istockphoto.com/photos/background-of-cityscape-picture-id530828194?k=20&m=530828194&s=612x612&w=0&h=QziY-uzoIUM4ks03wMjOPjVoNj6TUaDDZbZvIkf-w0A=');
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		border-color: black;
+		border: 3px solid black;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h1{
+	border-radius: 30px;
+	background-color: lightblue;
+	max-width: 450px;
+	border:3px solid black;
+	color:chocolate;
+}
+#div{
+	max-width: max-content;
+	max-height: max-content;
+	border-radius: 20px;
+	border-color: black;
+}
+#section1{
+	display: inline-block;
+}
+h3:hover{
+width: 300px;
+background-color:darksalmon;
+color: darkslateblue;
+border-radius: 20px;
+}
+#player1_name_input:hover{
+	width: 340px;
+background-color:darksalmon;
+color: darkslateblue;
+border-radius: 20px;
+border-color:#1b03a3;
+}
+#player2_name_input:hover{
+	width: 340px;
+background-color:darksalmon;
+color: darkslateblue;
+border-radius: 20px;
+border-color:#1b03a3;
+}
